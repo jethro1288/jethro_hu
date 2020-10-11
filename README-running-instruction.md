@@ -12,7 +12,7 @@
 ### Steps of reviewing and verifying my changes
 * Make sure the running environment has Maven and Java (1.8) installed. 
 * Download the ZIP file or clone the repository from Github
-* Run CMD and navigate to the main folder(jethro_hu) that includes my changes, and run the command of `mvn clean install`
+* Run CMD and navigate to the main folder(jethro_hu) that includes my changes, and run the command of `mvn clean package`
 * Under the main folder, run the command of `java -jar target/momenton-1.0.jar` and then the organization 
 hierarchy will be printed on the console, which is similar to the following:
 
